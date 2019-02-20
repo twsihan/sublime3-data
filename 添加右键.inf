@@ -1,0 +1,9 @@
+[Version]
+Signature="$Windows NT$"
+
+[DefaultInstall]
+AddReg=Sublime Text
+
+[Sublime Text]
+hkcr,"*\\shell\\Sublime Text\\command",,,"""%1%\sublime_text.exe"" ""%%1"" %%*"
+
